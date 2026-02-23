@@ -1,0 +1,8 @@
+Already JSX is Used in Components 
+JSX {
+  Javascript XML
+  HTML AND Javascript Together bcoz of JSX
+  HTML XML tags Normally 
+  {10+30}
+  React.createElement('div',null,"Hello") // Complicated
+}

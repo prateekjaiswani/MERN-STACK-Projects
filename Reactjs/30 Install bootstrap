@@ -1,0 +1,5 @@
+bootstrap {
+  react bootstrap
+  npm install react-bootstrap bootstrap
+  import 'bootstrap/dist/css/bootstrap.min.css';
+}

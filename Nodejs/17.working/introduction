@@ -1,0 +1,12 @@
+
+
+//Node working is node in three steps or we say event loop
+
+// 1Call stack
+// 2node api
+// 3callback queue
+
+// Background main function works first
+// then others like log  in Call stack and remove backwards all functions then 
+// main
+

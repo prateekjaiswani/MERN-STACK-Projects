@@ -1,0 +1,31 @@
+Main File is Package.JSON ->Name,version, Commands, Packages 
+Package-lock.JSON ->details of Package.JSON {
+  History and version control of Packages
+  dependencies of Packages all details
+}
+Git.ignore is used to ignore to upload in GIT like node modules
+for not commiting
+
+SRC{
+  css -> all css
+  app.js -> all code start
+  app.test.js -> Unit test Cases for advance js 
+  index.js -> entry point of react
+  reportwebvital.js -> performance report .... called in index.js
+  setuptests.js -> test files setup starts
+}
+
+public{
+  HTML type files 
+  index.html connected with index.js 'root' class connections
+  manifest.json -> Meta files {icons color themes fonts}
+  robots.txt -> search engine protection for Google 
+}
+
+Node modules {
+  all packages 
+}
+
+Build {
+  At last may be
+}

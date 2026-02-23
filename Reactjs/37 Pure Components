@@ -1,0 +1,5 @@
+Purec {
+  Stops re rendering of a component
+  PureComponent
+  it will not re render if the state or prop is not changed on click
+}

@@ -1,0 +1,14 @@
+propsc{
+  Propsc.js
+  Class k sath
+  in class props is predefined for using anything
+
+  remeber the use of props as {
+    parameter
+    this
+    constructor
+    in class different and in function different
+
+    use this.props.name in html and prop parameter
+  } 
+}

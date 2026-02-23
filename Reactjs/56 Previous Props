@@ -1,0 +1,5 @@
+Previous Props {
+  we will get previous props 
+  useRef,useEffect
+  similar thing of previous state but by usEffect for previous props
+}

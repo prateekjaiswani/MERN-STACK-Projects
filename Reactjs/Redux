@@ -1,0 +1,58 @@
+Redux {
+  90% use in react..
+  Container where you can store your application Data
+  Local Data ..
+  State management Tool
+  Do not belong to component state
+}
+
+uses {
+  Connection btw two components
+  store for fetching and adding temperory Data
+}
+
+Start :
+  Architecture -> View (showing) -> Action (Collecting Data from API) 
+  ->Reducer (Recieve ND store) -> Store(state of complete data in application)
+  1 application - 1 Store  -> Data Unidirectional
+
+Installation :
+    npm,node,redux, react redux -> npm install redux-> npm react redux
+
+props {
+  same as react ..
+}
+
+files->redux/Container->/constants(for matching data)/services->Actions,Reducers
+
+Add to cart {
+  action send the data to store
+  constant is used in Action
+}
+
+
+Reducer {
+  Reducer takes action and Filter before sending to store
+  constant is used in reducer
+}
+
+Container{
+  used to connect redux and react
+}
+
+Complete Flow {
+  redux wrapper in index file 
+  provider
+  store
+}
+
+Adding Data to cart {
+  Get 1 item 
+  making style for cart items
+  Push multiple item in cart
+  show multiple count
+}
+
+Header Component for New Component {
+  to show cart item number 
+}

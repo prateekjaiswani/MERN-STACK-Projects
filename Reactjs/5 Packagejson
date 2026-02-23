@@ -1,0 +1,7 @@
+npm package add or remove or custom Commands 
+
+npm install will install all in node modules due to heavy parts
+(validate through package.json)
+npm i react-validation 
+
+custom commands through package.json 

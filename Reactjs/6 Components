@@ -1,0 +1,20 @@
+Component {
+  A piece of code that can reused
+  such as function
+  more powerful than function
+  header,footer is example
+}
+
+types{
+  functional Component
+  class Component
+  HOC(higher order Component)
+  Pure Component
+  Controlled Component
+  Uncontrolled Component
+}
+
+// everything inside return should be inside enclosed html tag for any component
+// basic component is User
+// export default component is important 
+// same file also can be used

@@ -1,0 +1,23 @@
+Routing.js {
+  React router on Webpage 
+  Components are converted to page to link one another 
+  opening in specific url
+  npm install react-router-dom
+
+  working on App.js first
+
+  import {BrowserRouter as Router,Link,Route,Routes} from 'react-router-dom';
+  Link Makes location
+  Route Makes particular to open in that
+
+    <Router>
+      <Link to="/home">Home Page</Link>
+      <Link to="/about">About Page</Link>
+      <Routes>
+      <Route path="home" element={<Home/>}></Route>
+      <Route path="about" element={<About/>}></Route>
+      </Routes>
+      <h1>Chal rha h</h1>
+
+      </Router>
+}

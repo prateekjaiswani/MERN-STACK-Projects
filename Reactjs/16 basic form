@@ -1,0 +1,6 @@
+Form.js {
+  on CHange
+  target.value 
+  change state true false 
+  onSubmit ={function}
+}

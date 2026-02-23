@@ -1,0 +1,38 @@
+1st video {
+    introduction,
+    AppBar,ToolBar,Box,
+    styled
+
+    style syntax  <img style={{width:75}} />
+
+    Typography 
+
+    &nbsp; 
+
+    inputBase, Button , Icons-material
+}
+
+2nd Video {
+    NavBar.jsx
+    Banner.jsx {
+            
+    }
+    Server {
+        express, app.listen
+        .env
+        mongodb cloud 
+        connect
+        mongoose , schema
+        insert Delete
+    }
+}
+
+3rd Video  {
+    <Dialog open = {open} onClose = {()=>setOpen(false)}
+
+
+    axios.post
+    router.post
+    body-parser, cors
+    
+}

@@ -1,0 +1,21 @@
+// Download Mongo DB
+// set environment variable bin folder - check - mongo in cmd
+// mongodb compass 
+
+// 28. MongoDB Basicsm
+// mongodb and mongodb compass is different tool
+// NoSQL database - non structural data / sql is structured data
+// the data stored in collection
+// collection don have rows and columns
+// data is stored in form of OBJECT
+// check data by MongoDB Compass
+//show dbs
+// use youthwood-pictures -> db.createCollection('videos) -> show collections
+//db.content.drop()  // db will use the youthwood-pictures
+
+//29. CRUD OPERATIONS in MONGODB COMPASS
+//insert- use youthwood ->db.content.insertOne({name:"prateek",art:"acting"})
+//check - db.content.find()
+//update -db.content.updateOne({name:"rockstar"},{$set:{art:"guitar"}})
+//delete -db.content.deleteOne({name:"jaiswani"})
+

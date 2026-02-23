@@ -1,0 +1,7 @@
+Higher Order Component HOC.js {
+   HOC1 HOC2
+   a component as an input and output
+   worked in App.js
+
+   not by {}  but by <props.component passed>
+}

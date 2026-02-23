@@ -1,0 +1,4 @@
+useMemo{
+  Function is called even if its not related to the button so we will use 
+  useMemo
+}

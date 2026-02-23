@@ -1,0 +1,6 @@
+Ref {
+  React says dont use Ref to manipulate DOM , it reduce performance
+  use only in emergency
+  used in Class Component
+  
+}

@@ -1,0 +1,6 @@
+Hooks.js {
+  used for life cycle components in functions
+  useState is a Hooks
+  all things with use is Hooks
+  useEffect is used for all Life cycles
+}

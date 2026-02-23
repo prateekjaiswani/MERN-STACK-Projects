@@ -1,0 +1,7 @@
+//Asynchronous basics of Nodejs
+
+// Synchronous programming doesn't load the next code before running the previous
+// code
+
+// Asynchrounous programming loads the next code even the previous 
+// code works or not ..

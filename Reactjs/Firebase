@@ -1,0 +1,87 @@
+A suite of tools to easily build full stack application 
+{
+  Authentication
+  Databases - Real Time Updates
+  FileStorage
+  Security Rules
+  Analytics
+  Hosting an Application
+}
+
+Authentication  Firebase.js{
+  opening website and starting Authentication
+  setting up firebase by npm install firbase 
+  setting config file for necessary Components
+  Adding EMAIL PASSWORD AND ALL THE METHODS WITH THAT ON BUTTONS 
+  Adding signinwithpopup for gmail ,googleauthprovider,
+   signinwithEmailandPassword,
+    createuserwithEmailandPassword(data.email,data.password) , getauth
+}
+
+Databases {
+  getFireStore Impoort
+  import getDocs,addDoc,updateDoc,deleteDoc,Doc
+  also collection (database, 'users')
+}
+
+Firebase  file Storage {
+  ref,getDownloadURL,uploadBytesResumable
+  storageRef = ref(storage, `location/${filename}`)
+
+  uploading {
+    const handleSubmit = () => {
+
+    
+    const uploadTask=uploadBytesResumable(storageRef, data);
+    uploadTask.on('state_changed', (snapshot) => {
+        const progress =(snapshot.bytesTransferred/snapshot.totalBytes) * 100
+        console.log("upload is " + progress + "%done");
+    },(error) =>{
+      console.log(error.message)
+    },() => {
+      // Handle successful uploads on complete
+      // For instance, get the download URL: https://firebasestorage.googleapis.com/...
+      getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
+        console.log('File available at', downloadURL);
+      });
+    }
+  )
+} ;
+  }
+}
+
+
+Firebase Real Updates {
+  runs everytime changed data
+  just use effect and snapshot 
+}
+
+Firebase firestore Queries {
+  used to filter data query where 
+  on snapshot(query , print)
+}
+
+Firebase Hosting {
+  inside console.
+
+  npm i -g firebase-tools
+  npm run build
+  firebase login:ci -> login in firebase 
+  firebase init -> initialise firebase 
+  Yes-> Enter->use build-> Yes for single page / Dont make automatic builds 
+  firebase deploy -> deploy 
+}
+
+Firebase Security rules{
+  allow write: if request.auth !=null;
+  allow read:
+  onAuthStateChanged
+  working on authenticationn
+}
+
+
+onAuthStateChanged {
+  Real time 
+  vhi hai 
+  sign out sign in 
+}

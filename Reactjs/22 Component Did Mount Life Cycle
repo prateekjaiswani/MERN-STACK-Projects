@@ -1,0 +1,8 @@
+CDM.js {
+  No impact of Updating State And props before this
+  after this we can update state and Props
+  Used when Api is called but not conditional
+
+  Constructor->render->componentDidmount
+
+}

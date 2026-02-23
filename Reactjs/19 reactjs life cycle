@@ -1,0 +1,8 @@
+Life Cycle{
+  Mounting,(ComponentDidMount)
+  Updating,(ComponentDidUpdate)
+  Unmounting,(ComponentwillUnmount)
+  Load,Update,Remove
+
+}
+

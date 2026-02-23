@@ -1,0 +1,78 @@
+(Arpit Purwar)
+
+1- Build The Movie Resources API's  {
+
+        Authentication :- Verify Users
+        Authorization :- Accessibility of Specific Functions
+
+        {
+            Root Admin
+            System Admin
+            Client
+            Customer
+        }
+
+        Api is a Bridge between Client and Customer 
+
+        --> Relational Database table cannot be Modified
+        --> Non Relational Can be Modified anytime
+        --> For Easy interaction with database {ORM-> Object Relation Mapper} -> Mongoose { Bridge between server and database }
+
+
+        creating ->{
+            npm init 
+            npm i express mongoose body-parser dotenv
+        }
+
+        body-parser converts body into json structure
+        .env to create localised environment for system 
+
+}
+
+2 Build Theatre resource APIs {
+    npm i nodemon --save --dev  {dev dependency not main dependency} -> to save and autorun it 
+    scripts {
+        prestart>start->SET NODE_ENV=development (to define environment) & nodemon index.js {seach other scripts hooks}
+    }
+
+    creating express app
+    server.config.js for accessing Ports
+    node-> process.env {environmental processes information}
+
+    .env for multiple values setting {require('dotenv').config();}
+
+    if not running on production use dotenv {
+        if(process.env.NODE_ENV != 'production'){
+            require('dotenv').config(); ------- not clear
+        }
+    }
+
+    connect mongodb using mongoose (127.0.0.1 instead localhost)
+    Create Schema 
+
+
+    get api
+    routes
+    controller
+
+    get All movies
+    get One movie By Name  /m?name=bacch
+    get Based on Id 
+}
+
+3- Build Theatre Resource API - {
+
+    middleware file -> {
+        verifyReqBody.js  {
+            verify if data is present while sending api or not 
+        }
+        index.js {
+
+        }
+    }
+        bodyparser.json 
+        bodyparser.urlencoded({extended : true})
+
+
+        
+}

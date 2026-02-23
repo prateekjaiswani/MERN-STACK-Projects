@@ -1,0 +1,20 @@
+How to make click event 
+call function in the button click
+Variable in functional Component 
+
+
+
+// if onclick is put with brackets of calling function then it will 
+//call it without clicking
+
+// normal data is not changed in web page it will use state and props
+
+let data="Prateek Jaiswani ";
+  function apple(){
+    data="Sarkaar";
+    alert(data)
+  }
+
+<h1>{data}</h1>
+<button onClick={apple}>Click Me!!!</button>
+<button onClick={()=>{alert("Haan ab aaega")}}>Click Me!!!</button>

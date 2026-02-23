@@ -1,0 +1,5 @@
+Constructorlc {
+  Used in class bcoz we will not use hooks for functions
+  it is called immidiately with Class in React
+  we never call API in the Constructor
+}

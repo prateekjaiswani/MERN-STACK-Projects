@@ -1,0 +1,12 @@
+Value from input box whole and real time {
+  Just use onChange
+  and then get the target.value of parameter
+
+  {
+    if?
+    print
+    :null
+  }
+
+  
+}

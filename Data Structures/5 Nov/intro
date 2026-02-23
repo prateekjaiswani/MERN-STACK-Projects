@@ -1,0 +1,19 @@
+binary search advanced 
+Part 1
+
+Steps : -> 
+Sorting
+
+Middle - mid
+
+if arr[mid]=key;
+if element is less -> e= mid-1
+else -> s=mid+1
+
+
+Time Complexity  = n/2^k 
+log(n)=k
+
+
+// First and Last Position of element
+// Square root of element to the nearest integer

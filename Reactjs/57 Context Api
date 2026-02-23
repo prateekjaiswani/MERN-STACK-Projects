@@ -1,0 +1,16 @@
+Context Api {
+  Directly Data from Component to any Component
+  used Context Api
+  we don't have to move to parent to talk to another child 
+
+
+  Main{
+    Provider
+    Consumer
+  }
+
+  Consumer can do inside Provider
+
+  components and App.js use provider other uses consumer but inside 
+  provider in App.js
+}

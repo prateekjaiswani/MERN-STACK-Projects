@@ -1,0 +1,33 @@
+React js is Library of Javascript
+Used to Fast develop UI
+Single page application . Dont load for another
+Uses Virtual Dom
+
+
+
+why?{
+  Maintained by Facebook
+  Fast speed High demand
+  Large community
+  React Native for Mobile 
+}
+
+History {
+  Maintained by Facebook
+  29 may 2013 release date
+
+  Netflix, Whatsapp , instagram, Air BNB
+}
+
+pre know {
+  html css, ES6
+}
+
+
+int -> let, var, const 
+for(int i=0) -> for(let i=0)
+
+public static void methodname(int arg) ->  function(arg) -> const variablename = function(arg)
+const variablename = (arg) => {
+  console.log(arg)
+}

@@ -1,0 +1,22 @@
+Postapi {
+  Api.js
+  App.js input k liye 
+
+  Post man se to kr liya body se but ab isme input se lenge lets see kaise bhejta h
+
+
+    fetch("http://localhost:4000",{
+    method: 'POST',
+    headers:  {
+      'Accept': 'application/json',
+      'content-type': 'application/json'
+    },
+    body: JSON.stringify(data)
+  }).then((result)=>{
+    console.log(result)
+  })
+
+
+  put sends data to update 
+  patch sends instruction to update
+}

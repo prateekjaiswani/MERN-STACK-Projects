@@ -1,0 +1,9 @@
+2 files important - index.js,app.js
+App.js shows in Browser
+App.js is due to index.js 
+first index.js is loaded most first
+
+new file our file- Users.js  / first letter capital
+and import in index js accordingly 
+
+alternative of npm is Yarn

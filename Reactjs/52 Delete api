@@ -1,0 +1,19 @@
+Delete api {
+  Get api me hi .. delete krne ko
+
+  problem solved of deleting and showing turant 
+  function deleteArtist(id){
+  alert(id);
+  fetch(`http://localhost:4000/${id}`,{
+    method:'DELETE'
+  }).then((result)=>{
+    result.json().then((resp)=>{
+      console.log(resp);
+      getList()
+    })
+  })
+}
+
+
+item._id se krliya 
+}

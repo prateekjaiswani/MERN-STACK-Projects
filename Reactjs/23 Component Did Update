@@ -1,0 +1,17 @@
+CDU.js {
+  this works after component did mount
+  and this will not work unless we update state and Props
+  ++ not works here buddy 
+
+  preState is previous statevalue
+  data is same as preState .... for use
+
+  snapshot is undefined always unless getSnapshotBeforeUpdate()
+  gives snapshot we will learn further
+
+  if shouldcomponentupdate() is falsed then 
+  Componentdidupdate will not work
+
+  we can call api in this if its conditional otherwise
+   we will call it in component did mount
+}

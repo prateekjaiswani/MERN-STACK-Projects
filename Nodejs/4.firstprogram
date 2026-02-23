@@ -1,0 +1,12 @@
+node -v
+npm -v
+
+
+node -> "javascript code" doesn't return in console.log whether in chrome on cmd 
+shows undefined
+
+write cmd in address of any folder it will open there.
+
+vs code only
+
+console.warn is same

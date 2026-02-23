@@ -1,0 +1,41 @@
+<App />
+    <Users/>
+    <User/>
+    <State/>
+    <Statec/>
+    <Props name={"Prateek Prop"} email="prateekjaizz@gmail.com" other={{address: "Satna", Number: 1234}}/>
+    {/* <Props name={"Prat"} email="izz@gmail.com" other={{address: "Satna", Number: 1234}}/> */}
+    {/* <Props name={"eep"} email="pra@gmail.com" other={{address: "Satna", Number: 1234}}/> */}
+    <Propsc name="Prateek Jaiswani Class"/>
+    <Input/>
+    <Toggle/>
+    <Form/>
+    <Conditional/>
+    <Funcprop data={getData}/>
+    <Constructorlc/>
+    <Renderlc/>
+    <CDM/>
+    <CDU/>
+    <CWU/>
+    <CWU2/>
+    <UseEff/>
+    <UseEffps/>
+    <Style/>
+    <Array/>
+    <Reuse/>
+    <Fragment/>
+    <Ctop/>
+    <Purec/>
+    <Usememo/>
+    <Ref/>
+    <Useref/>
+    <Forwardref/>
+    <Controlled/>
+    <Uncontrolled/>
+    <Routing/>
+    <Pnf/>
+    <Drout/> imp
+    <Api/> imp
+    <Prevstate/>
+    <Prevprops/>
+    <CommonContext/>/components 

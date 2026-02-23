@@ -1,0 +1,7 @@
+Fragment {
+  Used for multiple components and elements wrapping
+  enclosing in div is extra 
+  div cannot be used inside table so Fragment can be used
+
+  function should be made in parent component app.js to increase performance 
+}

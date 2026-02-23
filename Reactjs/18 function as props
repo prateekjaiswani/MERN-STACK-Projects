@@ -1,0 +1,12 @@
+function as props {
+
+}
+
+function getData(){
+  alert("hello from index")
+}
+
+  <div>
+  <Funcprop data={getData}/>
+  <div>
+  <Fup data={getData}/>
